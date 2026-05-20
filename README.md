@@ -13,8 +13,8 @@ El sitio web está compuesto por las siguientes secciones y páginas:
     * Tabla informativa que contiene: matrícula, sexo, edad y un enlace directo a la página individual de cada integrante.
 * **Sección de Integrantes:** Páginas individuales (TuMatricula.html) personalizadas por cada miembro junto con una imagen propia (foto o meme).
 * **Página de Error (404.html):** Una página de error personalizada para manejar rutas no encontradas dentro del sitio.
-
-¡Qué onda equipo! Les paso cómo nos podemos repartir la tarea 10 para avanzar rápido. Recuerden que todos tenemos que hacer nuestro archivo TuMatricula.html, meter nuestra foto o meme a la carpeta img y subir los cambios para que aparezcamos en el historial de commits.
+* 
+El trabajo de equipo
 
 Lo general nos lo dividimos así:
 
