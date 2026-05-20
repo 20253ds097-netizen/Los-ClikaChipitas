@@ -1,0 +1,113 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    background-color: #2b4c7e;
+    color: white;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+header h1 {
+    margin: 0 0 15px 0;
+    font-size: 2.5rem;
+}
+
+.logo-equipo {
+    max-width: 180px;
+    height: auto;
+    border-radius: 8px;
+    background-color: white;
+    padding: 5px;
+}
+
+/* Contenido Principal */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+section {
+    background: white;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #2b4c7e;
+    border-bottom: 2px solid #2b4c7e;
+    padding-bottom: 8px;
+    margin-top: 0;
+}
+
+/* Lista ordenada */
+ol {
+    padding-left: 20px;
+    font-size: 1.1rem;
+}
+
+ol li {
+    margin-bottom: 8px;
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    font-size: 1rem;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #2b4c7e;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Botón de enlace */
+.btn-enlace {
+    display: inline-block;
+    background-color: #2b4c7e;
+    color: white;
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.btn-enlace:hover {
+    background-color: #1a3052;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #777;
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
