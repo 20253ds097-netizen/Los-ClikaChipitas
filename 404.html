@@ -4,17 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Error 404 - Página no encontrada</title>
-    <link rel="stylesheet" href="./Los-ClikaChipitas/css/error404.css">
-    <img src="./Los-ClikaChipitas/img/404error.gif" alt="Error 404" class="img-error">
+    <style>
+        /* Centrado absoluto en toda la pantalla con fondo oscuro */
+        .body-404 {
+            background-color: #0b0f19;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+            overflow: hidden; /* Evita barras de desplazamiento innecesarias */
+        }
+
+        /* Contenedor flexible */
+        .contenedor-404 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        /* Estilos para hacer la imagen GRANDE y responsiva */
+        .img-error-gigante {
+            width: 100%;
+            max-width: 650px; /* Controla qué tan gigante se verá en pantallas de computadora */
+            height: auto;     /* Mantiene la proporción original de la imagen */
+            display: block;
+            filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.6)); /* Sombra suave de fondo */
+        }
+
+        /* Ajuste automático para pantallas pequeñas de celulares */
+        @media (max-width: 480px) {
+            .img-error-gigante {
+                max-width: 95%; /* Se adapta perfectamente en móviles */
+            }
+        }
+    </style>
 </head>
 <body class="body-404">
 
     <main class="contenedor-404">
-        <div class="codigo-error">404</div>
-        <h1>¡Fallo en el sistema!</h1>
-        <p class="mensaje-error">La ruta a la que intentas acceder no existe o fue movida en el servidor de Los ClikaChipitas.</p>
-        
-        <a href="./Los-ClikaChipitas/index.html" class="btn-404">Volver al Inicio Completo</a>
+        <img src="https://bigseo.com/wp-content/uploads/2018/03/error-404-foxplay.png" alt="Error 404" class="img-error-gigante">
     </main>
 
 </body>
